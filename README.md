@@ -3,6 +3,30 @@
 ## Synopsys
 
 This project is representing the fundamental concepts of functional programming and the implementation of lambda-calculus by javascript.
+```javascript
+True      = t => f => t
+False     = t => f => f
+If        = b => t => f => b(t)(f)
+Not       = x => If(x)(False)(True)
+And       = x => y => If(x)(y)(False)
+Or        = x => y => If(x)(True)(y)
+Xor       = x => y => If(x)(Not(y))(y)
+Pair      = x => y => (f => f(x)(y))
+Fst       = p => p(True)
+Snd       = p => p(False)
+Triplet   = x => y => z => (f => f(x)(y)(z))
+Pentuplet = x => y => z => u => v => (f => f(x)(y)(z)(u)(v))
+Zero      = s => z => z
+One       = s => z => s(z)
+Two       = s => z => s(s(z))
+Three     = s => z => s (s(s(z)))
+Succ      = n => (s => z => s (n(s)(z)))
+Add       = n => m => m(Succ)(n)
+Mul       = n => m => m(Add(n))(Zero)
+Pow       = n => p => p (Mul(n))(One)
+toInt     = n => n(x => x + 1)(0)
+// ...
+```
 
 ## Install
 
