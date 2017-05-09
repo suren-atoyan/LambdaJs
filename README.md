@@ -26,4 +26,4 @@ npm start
 ## Thanks
 
 This concept and its technical solutions are based on the following [article](https://habrahabr.ru/post/322052/).
-I would  like to thank @ibessonov for this article and my wife for helping me in functional programming, theory of algorithms and mathematical logic.
+I would  like to thank @ibessonov for this article and my wife for helping me in Functional Programming, Theory of Algorithms and Mathematical Logic.
