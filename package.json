@@ -1,0 +1,23 @@
+{
+  "name": "lambdajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "init.js",
+  "dependencies": {
+    "source-map-loader": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SurenAt93/LambdaJs.git"
+  },
+  "author": "SurenAt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SurenAt93/LambdaJs/issues"
+  },
+  "homepage": "https://github.com/SurenAt93/LambdaJs#readme"
+}
