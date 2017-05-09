@@ -10,9 +10,9 @@
  * }
  */
 
-import If from '../conditional/if';
+import If from '../conditionalStatements/if';
 
-import True from '../constants/true';
+import True from '../booleanConstants/true';
 
 const Or  = x => y => If(x)(True)(y);
 

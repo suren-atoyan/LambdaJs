@@ -10,7 +10,7 @@
  * }
  */
 
-import If from '../conditional/if';
+import If from '../conditionalStatements/if';
 
 import Not from './not';
 

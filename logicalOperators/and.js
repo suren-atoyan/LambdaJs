@@ -10,9 +10,9 @@
  * }
  */
 
-import False from '../constants/false';
+import False from '../booleanConstants/false';
 
-import If from '../conditional/if';
+import If from '../conditionalStatements/if';
 
 const And = x => y => If(x)(y)(False);
 

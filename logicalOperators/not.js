@@ -8,11 +8,11 @@
  * }
  */
 
-import True from '../constants/true';
+import True from '../booleanConstants/true';
 
-import False from '../constants/false';
+import False from '../booleanConstants/false';
 
-import If from '../conditional/if';
+import If from '../conditionalStatements/if';
 
 const Not = x => If(x)(False)(True);
 

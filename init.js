@@ -1,16 +1,56 @@
-import True from './constants/true';
+// Boolean Constants
 
-import False from './constants/false';
+import True       from './booleanConstants/true';
 
-import If from './conditional/if';
+import False      from './booleanConstants/false';
 
-import And from './logicalOperators/and';
+// Conditional Statements
 
-import Not from './logicalOperators/not';
+import If         from './conditionalStatements/if';
 
-import Or from  './logicalOperators/or';
+// Logical Operators
 
-import Xor from './logicalOperators/xor';
+import Not        from './logicalOperators/not';
+
+import And        from './logicalOperators/and';
+
+import Or         from  './logicalOperators/or';
+
+import Xor        from './logicalOperators/xor';
+
+// Data Structure
+
+import Pair       from './dataStructure/pair';
+
+import Fst        from './dataStructure/fst';
+
+import Snd        from './dataStructure/snd';
+
+import Triplet    from './dataStructure/triplet';
+
+import Pentuplet  from './dataStructure/pentuplet';
+
+// Arithmetic
+
+import Zero       from './arithmetic/zero';
+
+import One        from './arithmetic/one';
+
+import Two        from './arithmetic/two';
+
+import Three      from './arithmetic/three';
+
+import Succ       from './arithmetic/succ';
+
+import Add        from './arithmetic/add';
+
+import Mul        from './arithmetic/mul';
+
+import Pow        from './arithmetic/pow';
+
+// Convert?
+
+import toInt      from './convert/toInt';
 
 // simple logger
 
@@ -47,3 +87,22 @@ log(Xor(False)(False) == False);
 log(Xor(False)(True) == True);
 log(Xor(True)(False) == True);
 log(Xor(True)(True) == False);
+
+log('Test ::: "Pair"');
+let pair = Pair(1)(2);
+log(Fst(pair) == Pair(1)(2)(True) == True(1)(2));
+
+log('Test ::: "toInt"');
+log(0 == toInt(Zero))
+log(1 == toInt(One))
+log(2 == toInt(Two))
+
+// log('Test ::: "Zero"');
+// log('Test ::: "One"');
+// log('Test ::: "Two"');
+// log('Test ::: "Three"');
+// log('Test ::: "Succ"');
+// log('Test ::: "Add"');
+// log('Test ::: "Mul"');
+// log('Test ::: "Pow"');
+
