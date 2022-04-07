@@ -4,7 +4,7 @@
   "description": "",
   "main": "init.js",
   "dependencies": {
-    "source-map-loader": "^0.2.1"
+    "source-map-loader": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
